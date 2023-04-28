@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="usedesk_string_sections_title">Base de conocimientos</string>
+    <string name="usedesk_string_cancel">Cancelar</string>
+    <string name="usedesk_string_enter_your_query">Ingresa tu consulta</string>
+    <string name="usedesk_string_search_fail">Nada Encontrado</string>
+    <string name="usedesk_string_rating_question">¿Te resultó útil este artículo</string>
+    <string name="usedesk_string_article_review_title">¿Qué va mal?</string>
+    <string name="usedesk_string_rating_thanks">¡Gracias por revisar!</string>
+    <string name="usedesk_string_article_review_placeholder">Tu comentario</string>
+    <string name="usedesk_string_sections_load_error">No se pudo cargar</string>
+    <string name="usedesk_string_try_again">Inténtalo de nuevo</string>
+    <string name="usedesk_string_rating_yes">Sí, lo era</string>
+    <string name="usedesk_string_rating_no">No, no fue</string>
+    <string name="usedesk_string_not_find_answer">No encontre la respuesta</string>
+    <string name="usedesk_string_no_pics">Sin fotos</string>
+    <string name="usedesk_string_wont_work">No funcionará</string>
+    <string name="usedesk_string_font_too_small">El tamaño de fuente es demasiado pequeño</string>
+    <string name="usedesk_string_hard_to_find">Es difícil encontrar lo que buscaba</string>
+    <string name="usedesk_string_review_tags_prefix">Que sucede</string>
+    <string name="usedesk_string_review_comment_prefix">Сomentario</string>
+</resources>

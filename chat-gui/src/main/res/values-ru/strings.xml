@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="usedesk_string_offline_form_send_successed">Сообщение отправлено!\nМы ответим вам в течении 1 рабочего дня.</string>
+    <string name="usedesk_string_offline_form_send_failed">Не удалось отправить сообщение! Пожалуйста, попробуйте снова.</string>
+    <string name="usedesk_string_name">Имя</string>
+    <string name="usedesk_string_email">Почта</string>
+    <string name="usedesk_string_message">Сообщение</string>
+    <string name="usedesk_string_message_input">Написать…</string>
+    <string name="usedesk_string_field_error">Обязательное поле</string>
+    <string name="usedesk_string_email_error">Неправильно введена почта</string>
+    <string name="usedesk_string_today">Сегодня</string>
+    <string name="usedesk_string_yesterday">Вчера</string>
+    <string name="usedesk_string_download_started">Загрузка началась</string>
+    <string name="usedesk_string_download_failed">Ошибка загрузки</string>
+    <string name="usedesk_string_chat">Чат</string>
+    <string name="usedesk_string_feedback_thanks">Спасибо за ваш отзыв!</string>
+    <string name="usedesk_string_gallery">Галерея</string>
+    <string name="usedesk_string_camera">Камера</string>
+    <string name="usedesk_string_storage">Файлы</string>
+    <string name="usedesk_string_dangerous_file">Файл этого типа может нанести вред</string>
+    <string name="usedesk_string_send_again">Отправить повторно</string>
+    <string name="usedesk_string_delete_message">Удалить сообщение</string>
+    <string name="usedesk_string_download">Скачать</string>
+    <string name="usedesk_string_file_size_exceeds">Размер файла превышает %dМб:</string>
+    <string name="usedesk_string_files_size_exceeds">Размер файлов превышает %dМб:</string>
+    <string name="usedesk_string_not_selected">Не выбрано</string>
+</resources>

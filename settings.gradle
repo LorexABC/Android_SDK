@@ -1,0 +1,1 @@
+include ':app', ':common-sdk', ':common-gui', ':chat-sdk', ':chat-gui', ':knowledgebase-sdk', ':knowledgebase-gui'

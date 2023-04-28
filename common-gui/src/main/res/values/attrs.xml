@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <attr name="usedesk_common_toolbar_back_image" format="reference" />
+    <attr name="usedesk_common_toolbar_action_image" format="reference" />
+    <attr name="usedesk_common_toolbar_title_text" format="reference" />
+
+    <attr name="usedesk_common_container_root" format="reference" />
+    <attr name="usedesk_common_container_1" format="reference" />
+    <attr name="usedesk_common_container_2" format="reference" />
+    <attr name="usedesk_common_container_3" format="reference" />
+    <attr name="usedesk_common_container_4" format="reference" />
+    <attr name="usedesk_common_container_5" format="reference" />
+    <attr name="usedesk_common_container_6" format="reference" />
+    <attr name="usedesk_common_container_7" format="reference" />
+    <attr name="usedesk_common_container_8" format="reference" />
+    <attr name="usedesk_common_container_9" format="reference" />
+    <attr name="usedesk_common_container_10" format="reference" />
+    <attr name="usedesk_common_container_11" format="reference" />
+    <attr name="usedesk_common_container_12" format="reference" />
+
+    <attr name="usedesk_common_view_loading_image" format="reference" />
+    <attr name="usedesk_common_view_loading_title" format="reference" />
+    <attr name="usedesk_common_view_loading_text" format="reference" />
+
+    <attr name="usedesk_common_divider" format="reference" />
+
+    <attr name="usedesk_common_progressbar" format="reference" />
+
+    <attr name="usedesk_common_toolbar" format="reference" />
+
+    <attr name="usedesk_common_field_text_input_layout" format="reference" />
+    <attr name="usedesk_common_field_text_edit_text" format="reference" />
+
+    <attr name="usedesk_common_field_list_title_text" format="reference" />
+    <attr name="usedesk_common_field_list_value_text" format="reference" />
+    <attr name="usedesk_common_field_list_arrow_image" format="reference" />
+
+    <attr name="usedesk_common_field_checkbox_text" format="reference" />
+    <attr name="usedesk_common_field_checkbox_image" format="reference" />
+
+    <attr name="usedesk_text_1" format="string" />
+    <attr name="usedesk_text_2" format="string" />
+    <attr name="usedesk_text_3" format="string" />
+
+    <attr name="usedesk_text_color_1" format="color" />
+    <attr name="usedesk_text_color_2" format="color" />
+
+    <attr name="usedesk_background_color_1" format="color" />
+    <attr name="usedesk_background_color_2" format="color" />
+    <attr name="usedesk_background_color_3" format="color" />
+
+    <attr name="usedesk_drawable_1" format="reference" />
+    <attr name="usedesk_drawable_2" format="reference" />
+    <attr name="usedesk_drawable_3" format="reference" />
+    <attr name="usedesk_drawable_4" format="reference" />
+
+    <attr name="usedesk_animation_in" format="reference" />
+    <attr name="usedesk_animation_out" format="reference" />
+</resources>

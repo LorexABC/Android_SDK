@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?attr/usedesk_common_container_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:theme="@style/Usedesk.Chat.Screen.Loading.Page">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/v_loading"
+        style="?attr/usedesk_common_container_1">
+
+        <include layout="@layout/usedesk_view_loading" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

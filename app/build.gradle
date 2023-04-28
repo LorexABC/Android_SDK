@@ -1,0 +1,82 @@
+plugins{
+    id "com.android.application"
+    id "kotlin-android"
+    id "kotlin-kapt"
+}
+
+android {
+    compileSdkVersion defaultCompileSdkVersion
+    buildToolsVersion buildToolsVersion
+
+    defaultConfig {
+        applicationId "ru.usedesk.sample"
+        minSdkVersion defaultMinSdkVersion
+        targetSdkVersion defaultTargetSdkVersion
+        versionCode = 200
+        versionName = project.version
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        renderscriptTargetApi 19
+        renderscriptSupportModeEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "${variant.applicationId}_v${variant.versionName}_c${variant.versionCode}.apk"
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+    buildFeatures {
+        dataBinding = true
+    }
+    namespace "ru.usedesk.sample"
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+
+    implementation project(":common-sdk")
+    implementation project(":common-gui")
+    implementation project(":chat-sdk")
+    implementation project(":chat-gui")
+    implementation project(":knowledgebase-sdk")
+    implementation project(":knowledgebase-gui")
+
+    implementation "androidx.navigation:navigation-fragment-ktx:$navVersion"
+    implementation "androidx.navigation:navigation-ui-ktx:$navVersion"
+
+    implementation "androidx.activity:activity-ktx:$activityVersion"
+    implementation "androidx.core:core-ktx:$coreKtxVersion"
+    implementation "androidx.fragment:fragment-ktx:$fragmentKtxVersion"
+    implementation "androidx.appcompat:appcompat:$appCompatVersion"
+    kapt "androidx.annotation:annotation:$annotationVersion"
+
+    implementation "com.google.android.material:material:$materialVersion"
+
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+    implementation("com.github.bumptech.glide:okhttp3-integration:$glideVersion") {
+        exclude group: "glide-parent"
+    }
+    kapt "com.github.bumptech.glide:compiler:$glideVersion"
+
+    implementation "com.google.code.gson:gson:$gsonVersion"
+
+    implementation "com.android.support:multidex:$multidexVersion"
+}

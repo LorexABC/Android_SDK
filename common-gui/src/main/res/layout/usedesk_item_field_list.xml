@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?attr/usedesk_common_container_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:theme="@style/Usedesk.Common.List.Field">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/l_clickable"
+        style="?attr/usedesk_common_container_1">
+
+        <LinearLayout
+            android:id="@+id/l_text"
+            style="?attr/usedesk_common_container_2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/iv_arrow"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="?attr/usedesk_common_field_list_title_text"
+                tools:text="Subject *" />
+
+            <TextView
+                android:id="@+id/tv_value"
+                style="?attr/usedesk_common_field_list_value_text"
+                tools:text="Any" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_arrow"
+            style="?attr/usedesk_common_field_list_arrow_image"
+            app:layout_constraintBottom_toTopOf="@+id/v_divider"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:src="@drawable/usedesk_ic_arrow_angular" />
+
+        <View
+            android:id="@+id/v_divider"
+            style="?attr/usedesk_common_divider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

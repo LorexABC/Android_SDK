@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?attr/usedesk_common_container_3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:theme="@style/Usedesk.Chat.Message.Image">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/iv_preview"
+        style="?attr/usedesk_chat_message_image_preview_image"
+        tools:src="@drawable/usedesk_ic_image_loading" />
+
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        style="?attr/usedesk_common_progressbar"
+        android:theme="?attr/usedesk_common_progressbar" />
+
+    <ImageView
+        android:id="@+id/iv_error"
+        style="?attr/usedesk_chat_message_image_error_image" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        style="?attr/usedesk_chat_message_time_text"
+        tools:text="12:06" />
+</FrameLayout>

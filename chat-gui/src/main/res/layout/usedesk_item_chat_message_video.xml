@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?attr/usedesk_common_container_3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:theme="@style/Usedesk.Chat.Message.Video">
+
+    <FrameLayout
+        android:id="@+id/l_video"
+        style="?attr/usedesk_common_container_4" />
+
+    <ImageView
+        android:id="@+id/iv_preview"
+        style="?attr/usedesk_chat_message_video_preview_image" />
+
+    <FrameLayout
+        android:id="@+id/l_stub"
+        style="?attr/usedesk_common_container_5">
+
+        <ImageView style="?attr/usedesk_chat_message_video_stub_image" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_play"
+        style="?attr/usedesk_chat_message_video_play_image" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        style="?attr/usedesk_chat_message_time_text"
+        tools:text="12:06" />
+</androidx.cardview.widget.CardView>
